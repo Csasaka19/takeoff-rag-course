@@ -20,4 +20,4 @@ export async function generateEmbeddings(texts: string[]) {
   return response.data.map((item) => item.embedding);
 }
 
-generateEmbeddings(["Hello, world!", "Goodbye, world!", "My name is Mckay"]);
+generateEmbeddings(["Hello, world!", "Goodbye, world!", "My name is Sasaka"]);
